@@ -10,10 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>D's Quick Box Mod</title>
-    <meta name="application-name" content="D's Quick Box Mod"" />
-    <meta name="apple-mobile-web-app-title" content="D's Quick Box Mod">
-    <meta name="description" content="Hi!" />
+    <title>D's Quick Test</title>
+    <meta name="application-name" content="D's Quick Test" />
+    <meta name="apple-mobile-web-app-title" content="D's Quick Test">
+    <meta name="description" content="testing, testing" />
     <meta name="keywords" content="chiptune, instrumental, music, song, melody, composition, tool, free, online, square wave, NES, NSF, ultrabox, beepbox, jummbox, pandorasbox, modbox, sandbox, goldbox, wackybox, todbox" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -191,6 +191,7 @@
                 flex-shrink: 0;
                 border: 2px, inset;
                 border-color: var(--mod-title, #9c64f7);
+                display: none;
             }
         }
 
@@ -234,7 +235,7 @@
         <section>
 
             <h1 style="margin: 10px">
-                <font>D's Quick Box Mod</font>
+                <font>D's Quick Test</font>
                 <span id="goldboxPlant" style="display: inline; color: var(--mod-title)"></span>
                 <!-- <span id="goldboxPlant" style="display: inline; color: var(--plant-color, var(--link-accent, #62a13b));"></span> -->
             </h1>
@@ -245,11 +246,11 @@
 
 
             <h2>
-                <span id="Imagination" style="display: inline; color: var(--primary-text); font-size: 2em">Powering Imagination</span>
+                <span id="Imagination" style="display: inline; color: var(--primary-text); font-size: 2em">Reimagining the way people come together.</span>
             </h2>
 
             <p id="introduction">
-                A mod of <a href="https://ultraabox.github.io/" target="_blank">Ultrabox</a> that adds... anything I can! lmao
+                Welcome to D's Quick Test, the testing build for D's Quick Box Mod!
             </p>
             <!-- <p>
         All song data is contained in the URL at the top of your browser.
@@ -257,7 +258,7 @@
         When you are satisfied with your song, just copy and paste the URL to save and share your song!
     </p> -->
             <p>
-                If you have any questions, please visit <a href="./faq.html" target="_blank">Questions Answered</a> to see if your question is there. Visit the <a href="./patch_notes.html" target="_blank">patch notes</a> to see the latest changes made.
+                Click <a href="./editions.html" target="_blank">here</a> to check out the stable build!
                 <img id="Hotdog" src="" width="500" height="333" onclick="changeHotdogSize()" />
             </p>
             <!--
@@ -278,28 +279,12 @@
             <main class="instructions-column" id="instructions">
                 <section>
                     <h2>
-                        Instructions
+                        You wouldn't need instructions right?
                     </h2>
-                    <p>
-                        You can add or remove notes by clicking on the gray rows at the top.
-                        D's Quick Box Mod automatically plays the notes out loud for you. Try it!
-                    </p>
-                    <p>
-                        Notes go into patterns, and you can edit one pattern at a time.
-                        Those numbered boxes at the bottom of the editor are the different patterns you can edit.
-                        <span id="bar-editing">
+                        <span id="bar-editing" style="font-size: 0px">
                             Click the boxes to move to a different part of the song, or click the arrows on the currently selected box to swap which pattern is played during that part of the song.
                         </span>
-                    </p>
-                    <p>
-                        D's Quick Box Mod can play several rows of patterns simultaneously, and each row has its own set of patterns.
-                        Most rows can play melodies or harmonies, but the bottom row is for drums.
-                    </p>
-                    <p>
-                        The purple loop underneath the numbered boxes controls which part of the song is currently repeating.
-                        Move the loop to listen to a different part of the song, or drag the ends to expand the loop to include the whole song.
-                    </p>
-                    <div id="keyboard-instructions">
+                    <div id="keyboard-instructions" style="font-size: 0px">
                         <p>
                             When D's Quick Box Mod has focus (click on its interface above), you can use these keyboard shortcuts: <br />
                         </p>
@@ -317,44 +302,19 @@
                             <li>Check the edit menu for more!</li>
                         </ul>
                     </div>
-                    <p>
-                        In the note pattern editor, you can click and drag horizontally on a note to adjust its duration.
-                        You can also click above or below an existing note to add more notes to be played simultaneously, which is called a chord.
-                    </p>
-                    <div id="mobile-instructions" style="display: none;">
+                    <div id="mobile-instructions" style="display: none; font-size: 0px">
                         <p>
                             You can also long-press in the pattern editor to select a time range within a pattern, which you can then drag to move multiple notes at once.<br />
                         </p>
                     </div>
                     <p>
-                        ADVANCED: Drag vertically from an existing note to bend its pitch, or drag vertically from above or below the note to adjust its volume. You can perform fine volume adjustment if you hold Control while doing this!
-                    </p>
-                    <p>
-                        ADVANCED: Click and drag on the pattern grid to make a selection. You can then press C/V to mass copy/paste parts of your song.
-
-                    </p>
-                    <p>
-                        D's Quick Box Mod has many more features.
-                        Try playing with the buttons and menus on the right side to find out what it can do!
-                        You can also click on the label next to each option for a description of what it does.
-                        Some features are hard to find anywhere though - for example, if your song has any modulator channels, you can hold Ctrl or Shift while the song is playing to record the movement of sliders directly! If you want to learn more tips, tricks, and best practices though, see below.
-                    </p>
-                    <p>
-                        Want to see what people have made with BeepBox? Songs that were shared on Twitter prior to 2023-05-22 can now be browsed in <a href="https://twitter-archive.beepbox.co/" target="_blank">this interactive archive</a>!
-                        <!-- Additionally, there's an active <a href="https://discord.gg/beepbox">BeepBox Discord</a> where you can share songs and ask questions! -->
+                        Some things here are actually exclusive to the testing build!
+                        Look for all those secrets!
                     </p>
 
-                    <p>
-                        (psst... Want to see some really cool songs? Check out the <a href="./hof.html" target="_blank">Hall Of Fame!</a>)
-                    </p>
-
-                    <p> </p>
-                    <p> </p>
-                    <p> </p>
-
-                    <small>
-                        If, for some reason, you wanna see the 404 page, click <a href="./404.html" target="_blank">here</a>.
-                    </small>
+                    <p> <small>
+                        (shhh! i think i hear someone)
+                    </small></p>
 
                 </section>
             </main>
@@ -399,132 +359,60 @@
     -->
     <script type="text/javascript">
 
-        // Randomize display of header
-        // 4-in-5 chance to appear
+        var img440 = document.createElement("img");
+        img440.src = "./website_things/V440.png";
+        var img500 = document.createElement("img");
+        img500.src = "./website_things/V500.png";
 
         const plants = [
-        // jummbox/goldbox plants    
-        "🍂", "🌿", "🌺", "🍃", "🍄", "🍀🌷", "🌈🍂🍁🍀🌷🍄🐲🌈🍃🌺🍄", " 1️⃣3️⃣1️⃣2️⃣",
-        // blubox plants
-        "≽(◕ ᴗ ◕)≼", "≽(ᴗ _ ᴗ)≼", "≽(⌐ _ ⌐)≼", "≽(ᵕ ‿ ᵕ)≼", 
-        // familiarbox plant (there were others, but the code of familiarbox is long gone)
-        // this is a reference to (now outdated?) lore jinx made for one of their projects 
-        "☀️⭐🕒👁️",
-        // suggested by mel, meant to supplement the lack of a worm logo
-        "🪱",
-        // this is from paandorasbox (might have also been present in familiarbox?)
-        " :wackybox:",
-        // plant originally suggested by mel in reference to the "(don't) eat thegubbys" meme. has now been reduced to just the fish emoji
-        "🐟",
-        // blubox desktop plants 
-        "⚡","🔵","💫",
-        // dogebox2 plants 
-        "🍕","🌭","🍔","🍟",
-        // Slarmoo's Box plants
-        "✨","🌈","🌧️","🪨","🐍","🌲","🌳","𓆏","🦀","🍄‍🟫",
-        // LemmBox 
-		"🍋",
-       // D's Quick Box Mod
-	    "☠︎", "plant id: 36", "you're really lucky if you get this plant"
+            // D's Quick Box Mod
+	        "☠︎", "plant id: 36", "you're really lucky if you get this plant",
+            // Testing Plants
+            "🔧", "the way i have this setup in my files is cursed",
+            // Image Plants
+            // V440 5
+            "",
+            // V500 6
+            "",
         ];
 
         // Randomize quote below heading
         const quote = [
             // 0
-            "deathmodereal adding a feature unrelated to song making for the 512895279th time",
+            "i wanted to make this a branch but too much effort",
             // 1
-            ":glensive:",
+            "hey gang do yall know how to make a custom domain for githu-",
             // 2
-            "fun fact there are (quote.length) quotes made right no- Oh that is not how it works is it",
-            // 3
-            "this is the only quote with a random chance added to it ontop of the regular quote chances",
-            // 4
-            "actually i lied",
-            // 5
-            "three pineapples, yes three",
-            // 6
-            "you failed the random chance!! haha!!",
-            // 7
-            "make a song, i dare you",
-            // 8 Start of Mimic
-            "My name is deathmodereal,",
-            // 9
-            "I made D's Quick Box Mod",
-            // 10 End of Mimic (was too long originally)
-            "It was difficult to put the pieces together",
-            // 11
-            "binky's world, help me forever",
-            // 12
-            "it would be really cool i think",
-            // 13 yeetyote in miniscule zone on 29 september 2025 at 04:22 at gmt+2
-            '"would you r" - yeetyote in #miniscule-zone on 29 september 2025 at 04:22 gmt+2',
-            // 14
-            "did you hear it",
-            // 15
-            "hey guys if you get this that means something i think",
-            // 16
-            "i really wish there was pure randomization because some quotes are getting picked way more than others",
-            // 17
-            "6/4 jumpscare",
-            // 18
-            "every song can be described as antimatter icecream, reprise or jazzathon",
-            // 19
-            "is 20 quotes enough?",
-            // 20
-            "clearly not",
-            // 21
-            "blow a fuse",
-            // 22
-            "theres a cool feature called Hall Of Fame where you can see cool songs",
-            // 23
-            "apperently deathmodereal was planning to port note ranges from abyssbox, i dont think thats happening ever",
-            // 24
-            "i need something better to do with my life",
-            // 25
-            "don't make a song, i dare you",
-            // 26
-            "you're really lucky if you get this quote",
-            // 27
-            "fun fact: we all god mandela-ed "
-
+            "the amount of things i stole from google to make the editions page 💔"
         ];
-        quote.push(`fun fact there are ${quote.length + 1} quotes right now`);
+        quote.push(`${quote.length + plants.length + 1} quotes and plants`);
 
         // Retry Now
         const visualnoveltexts = [
-            "Retry Now!!",
-            "We can't get together this run either...",
-            "Promise me if you lie, you'll stick a needle in your eye.",
-            "We're sure to meet in the next life, right?",
-            "Retry Now!!!",
-            "Throw everything away-whoosh.",
-            "We can't get together this run either★",
-            "We're sure to meet in the next life, right?★",
-            "Throw everything away-whoosh★",
+            "Testing Now!!",
+            "There are only 3 lines here-whoosh.",
+            "you can replace '/index.html' with '/editions.html' to get to the editions page faster! (You can actually do this with any webpage!)★",
         ]
+
         if (0 == 0) {
             document.getElementById("visualnoveltext").innerHTML = "  " + visualnoveltexts[(Math.floor(Math.random() * visualnoveltexts.length))];  
         }
 
 
         if (Math.floor(Math.random() * 1.25) == 0) {
-            document.getElementById("goldboxPlant").innerHTML = "  " + plants[(Math.floor(Math.random() * plants.length))];  
+            let plantused = plants[(Math.floor(Math.random() * plants.length))];
+            document.getElementById("goldboxPlant").innerHTML = "" + plantused;
+            if (plantused == plants[5]) {
+                document.getElementById("goldboxPlant").appendChild(img440);
+            }
+            if (plantused == plants[6]) {
+                document.getElementById("goldboxPlant").appendChild(img500);
+            }
         }
 
         if (0 == 0) {
             let quoteused = quote[(Math.floor(Math.random() * quote.length))]
-            if (quoteused == quote[3]) {
-                if (Math.floor(Math.random() * 2) == 0) {
-                    document.getElementById("dsboxQuote").innerHTML = quoteused;
-                }
-                else {
-                quoteused = quote[6]
-                document.getElementById("dsboxQuote").innerHTML = quoteused;
-                }
-            }
-            else {
-                document.getElementById("dsboxQuote").innerHTML = quoteused;
-            }
+            document.getElementById("dsboxQuote").innerHTML = quoteused
         }
 
         if (window.localStorage.getItem("colorTheme") == "Roblox") {
