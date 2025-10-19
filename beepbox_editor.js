@@ -1547,7 +1547,7 @@ var beepbox = (function (exports) {
             return (_a = EditorConfig.presetCategories[0].presets.dictionary) === null || _a === void 0 ? void 0 : _a[TypePresets === null || TypePresets === void 0 ? void 0 : TypePresets[instrument]];
         }
     }
-    EditorConfig.version = "V512";
+    EditorConfig.version = "V513";
     EditorConfig.revamp = "2";
     EditorConfig.versionDisplayName = "D's Quick Box Mod";
     EditorConfig.releaseNotesURL = "./patch_notes.html";
@@ -8678,7 +8678,7 @@ var beepbox = (function (exports) {
 
 					}
 			* {
-			cursor: url("theme_resources/windows_cursor.png"), auto !important;
+			cursor: url("theme_resources/windows_cursor2.png"), auto !important;
 			}
 			#Hotdog {
 				display: none !important;
@@ -8743,7 +8743,7 @@ var beepbox = (function (exports) {
 						image-rendering: pixelated !important;                 /* Future browsers */
 						image-rendering: optimizeSpeed !important;             /* IE */
 	
-						cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+						cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 					}
 					
 	
@@ -8753,72 +8753,72 @@ var beepbox = (function (exports) {
 	
 				.beepboxEditor input[type="range"]::-webkit-slider-thumb
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]::-webkit-slider-runnable-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]:focus::-webkit-slider-runnable-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]::-ms-thumb
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]::-ms-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]:focus::-ms-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]::-moz-range-thumb
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]::-moz-range-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="range"]:focus::-moz-range-track
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="text"],
 				.beepboxEditor input[type="number"]
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="checkbox"]
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="checkbox"]:checked
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 				 
 				.beepboxEditor input[type="checkbox"]:checked:after
 				{
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 	
 				div.selectRow span {
-					cursor: url("theme_resources/windows_cursor_hand.png"), pointer !important;
+					cursor: url("theme_resources/windows_cursor_hand2.png"), pointer !important;
 				}
 	
 				`,
@@ -9090,7 +9090,7 @@ var beepbox = (function (exports) {
 
 					}
 			* {
-			cursor: url("theme_resources/windows_cursor.png"), auto !important;
+			cursor: url("theme_resources/windows_cursor2.png"), auto !important;
 			}
 			#Hotdog {
 				display: none !important;
