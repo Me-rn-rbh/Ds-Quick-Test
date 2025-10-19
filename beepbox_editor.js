@@ -1547,7 +1547,7 @@ var beepbox = (function (exports) {
             return (_a = EditorConfig.presetCategories[0].presets.dictionary) === null || _a === void 0 ? void 0 : _a[TypePresets === null || TypePresets === void 0 ? void 0 : TypePresets[instrument]];
         }
     }
-    EditorConfig.version = "V511";
+    EditorConfig.version = "V512";
     EditorConfig.revamp = "2";
     EditorConfig.versionDisplayName = "D's Quick Box Mod";
     EditorConfig.releaseNotesURL = "./patch_notes.html";
@@ -8678,7 +8678,7 @@ var beepbox = (function (exports) {
 
 					}
 			* {
-			cursor: url("theme_resources/windows_cursor.png"), auto;
+			cursor: url("theme_resources/windows_cursor.png"), auto !important;
 			}
 			#Hotdog {
 				display: none !important;
@@ -9090,7 +9090,7 @@ var beepbox = (function (exports) {
 
 					}
 			* {
-			cursor: url("theme_resources/windows_cursor.png"), auto;
+			cursor: url("theme_resources/windows_cursor.png"), auto !important;
 			}
 			#Hotdog {
 				display: none !important;
@@ -9361,7 +9361,7 @@ var beepbox = (function (exports) {
 					}
 
 			* {
-			cursor: url("theme_resources/retrynow_cursor.png"), auto !important;
+			cursor: url("theme_resources/retrynow_cursor2.png"), auto !important;
 			}
 
 			@font-face {
